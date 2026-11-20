@@ -1,0 +1,13 @@
+name: ElementalSMP
+version: 1.0.0
+main: dev.elementalsmp.ElementalPlugin
+api-version: '1.21'
+description: Elemental SMP with Fire, Water, Earth, Wind and Lightning
+commands:
+  element:
+    description: View or manage elements
+    usage: /element [list | info <element> | set <player> <element>]
+permissions:
+  elemental.admin:
+    description: Lets you set other players' elements
+    default: op
